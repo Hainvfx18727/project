@@ -1,0 +1,50 @@
+@media (min-width: 576px) and (max-width: 1024px) {
+  .personal-image {
+    display: none;
+  }
+
+  .navbar-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav-2 {
+    margin-right: 32px;
+  }
+
+  .nav {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-left: 2px solid #e9ecef;
+    border-right: 2px solid #e9ecef;
+  }
+
+  .nav-1,
+  .nav-3 {
+    border-right: 0;
+  }
+
+  /* Thông tin cá nhân */
+  #info {
+    background-color: #f1f3f5;
+  }
+  .per,
+  .infor {
+    padding-top: 32px;
+    padding-left: 32px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+  }
+
+  /* Dự án */
+
+  table {
+    height: 400px;
+  }
+  /* footer */
+  #footer a {
+    display: none;
+  }
+}
